@@ -8,7 +8,7 @@ const writeFileAsync = promisify(writeFile)
 
 const AUTHOR = 'nycbeardo'
 const EMAIL = 'mstevens528@gmail.com'
-const DAYS_TO_GENERAlTE = 100
+const DAYS_TO_GENERAlTE = 365
 
 const dateMinusGivenDays = days => {
   const d = new Date()
